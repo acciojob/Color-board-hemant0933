@@ -12,7 +12,7 @@ window.addEventListener('DOMContentLoaded', function() {
   
       square.addEventListener('mouseout', function() {
         setTimeout(function() {
-          square.style.backgroundColor = '#ccc';
+          square.style.backgroundColor = 'rgb(29,29,29)';
         }, 1000);
       });
     }
